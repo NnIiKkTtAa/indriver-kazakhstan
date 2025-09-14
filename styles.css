@@ -1,0 +1,154 @@
+.main-header {
+    color: #00B074;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    padding: 15px;
+}
+
+.kz-flag {
+    background: linear-gradient(90deg, #00B074 33%, #F9A01B 33%, #F9A01B 66%, #00B074 66%);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.kz-flag h3 {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.stButton>button {
+    background-color: #00B074;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #008a5c;
+    transform: translateY(-2px);
+}
+
+.driver-card {
+    background: white;
+    border: 2px solid #00B074;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.price-tag {
+    background-color: #00B074;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.city-selector {
+    background-color: #00B074;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.analysis-result {
+    background: #f8f9fa;
+    border-left: 4px solid #00B074;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: #333;
+}
+
+.analysis-result h4 {
+    color: #333; 
+}
+
+.history-item {
+    background: white;
+    border: 2px solid #00B074;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    color: #333;
+}
+
+.driver-info {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px 0;
+    border: 2px solid #00B074;
+}
+
+.driver-name {
+    color: #00B074;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.driver-car {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.driver-rating {
+    color: #FFD700;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.header-container {
+    text-align: center;
+    padding: 30px 20px;
+    background: #00B074;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    padding: 12px 20px !important;
+    font-weight: 600 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #00B074 !important;
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 2.2rem;
+    }
+    
+    .driver-card {
+        padding: 15px;
+    }
+    
+    .price-tag {
+        font-size: 1.2rem;
+        padding: 12px 20px;
+
+    }
+}
