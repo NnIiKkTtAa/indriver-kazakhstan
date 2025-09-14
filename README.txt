@@ -28,13 +28,26 @@
 
 🚀 УСТАНОВКА И ЗАПУСК
 
-1. Установите зависимости:
+1 **Клонируйте репозиторий:**
+```bash
+git clone https://github.com/NnIiKkTtAa/indriver-kazakhstan.git
+cd indriver-kazakhstan
+
+2 Скачайте модели ML:
+
+    "car_classifier.pth": "https://drive.google.com/file/d/1ay3hK2waOMZG-QuNfQB5pb-e_aG94b54/view?usp=sharing"
+
+    "best_model_checkpoint.pth": "https://drive.google.com/file/d/1XEg8ju_CzUIGfS4thP63Uda5LxTtxaYI/view?usp=drive_link"
+
+3 Сохраните файлы в папку models/
+
+4 Установите зависимости:
 pip install -r requirements.txt
 
-2. Запустите приложение:
+5 Запустите приложение:
 streamlit run app.py
 
-3. Откройте в браузере:
+6 Откройте в браузере:
 http://localhost:8501
 
 📁 СТРУКТУРА ПРОЕКТА
